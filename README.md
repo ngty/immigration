@@ -12,7 +12,7 @@ Usage
 After this, the usage is similar to to using vanilla [OAuth2orize](https://github.com/jaredhanson/oauth2orize), but with a couple of tweaks to ensure compatiblity with Hapi (2.x series).
 
     // Require the plugin in Hapi
-    server.require(['immigration'], function (err) {
+    server.pack.require(['immigration'], function (err) {
       console.log(err);
     });
     
